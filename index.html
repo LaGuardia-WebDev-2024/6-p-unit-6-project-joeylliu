@@ -2,7 +2,7 @@
 Requirements
 [ yes ] three different shapes
 [ yes ] three different RGB colors
-[  ] three comments 
+[ yes ] three comments 
 [  ] three new CSS declarations in style.css
 
 Select ONE Additional 
@@ -18,6 +18,10 @@ Select ONE Additional
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geom:ital,wght@0,300..900;1,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    
     <title>Unit 6 Project</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.6/processing.min.js"></script>
@@ -27,13 +31,13 @@ Select ONE Additional
   <body>
     <div class="container">
       <div>
-        <h2 id="start">How it started.</h2>
+        <h2 id="start">How it <strong class="started">started</strong></h2>
         <img
           class="pic" src="https://static.wikia.nocookie.net/mightysrobloxmania/images/8/8c/John-Pork.jpeg/revision/latest/thumbnail/width/360/height/450?cb=20240316104629"
         />
       </div>
       <div>
-        <h2 id="end">How it ended.</h2>
+        <h2 id="end">How it <strong class="ended">ended</strong></h2>
         <canvas id="myCanvas" data-processing-sources="myP5Code.pde"> </canvas>
       </div>
     </div>
