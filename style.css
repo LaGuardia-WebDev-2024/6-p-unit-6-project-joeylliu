@@ -15,12 +15,12 @@ cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  wid
 }
 
 .started {
-  background-color: rgb(95, 88, 99);
+  background-color: rgb(108, 99, 112);
   color: rgb(255, 246, 246);
 }
 
 .ended {
-  background-color: rgb(87, 92, 99);
+  background-color: rgb(93, 100, 110);
   color: rgb(235, 235, 247);
 }
 
